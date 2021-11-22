@@ -1,208 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de59cd8e-132c-4779-a7f2-c7b6c6ac08ad" name="Default Changelist" comment="[ADD] git ignore">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player_Walking.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player_Walking.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/CharacterCage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/CharacterCage.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/Characters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/Characters.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/Guns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/Guns.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/Player_Bullets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Characters/Player_Bullets.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKinghtTiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKinghtTiles.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKinght_Box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKinght_Box.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKinght_BoxOpen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKinght_BoxOpen.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnightCharacter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnightCharacter.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_Launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_Launcher.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_LauncherBullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_LauncherBullet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_Pistol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_Pistol.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_PistolBullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_PistolBullet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_Spear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Demo/SoulKnight_Spear.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/BossEye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/BossEye.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/Enemies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/Enemies.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/Enemy Bullets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/Enemy Bullets.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/Splatter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemies/Splatter.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map/Map_Hider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map/Map_Hider.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map/Map_Rooms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map/Map_Rooms.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map/map_markers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Map/map_markers.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects/Breakable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects/Breakable.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects/Level Objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects/Level Objects.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects/Level_Exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Objects/Level_Exit.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Pickups.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Pickups/Pickups.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Pickups/Pickups.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Boss_Health_Name_Bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Boss_Health_Name_Bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Crosshair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Crosshair.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/HUD_Bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/HUD_Bar.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/HUD_Gun_Frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/HUD_Gun_Frame.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/HUD_Gun_Icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/HUD_Gun_Icons.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Level Name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Level Name.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/Logo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_Button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_Button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_Elements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_Elements.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_HealthBar_Fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_HealthBar_Fill.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_HealthBar_Outer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI/UI_HealthBar_Outer.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyBullets.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/EnemyBullets.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy_Skeleton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy_Skeleton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/PlayerBullet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/PlayerBullet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/EnemyBullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/EnemyBullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/EnemyController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/PlayerBullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/PlayerBullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/PlayerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Weapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Characters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Characters.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Environment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Environment.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Grass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Map.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Particle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Particle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Projectile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Projectile.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Boss Fight.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Boss Fight.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Game Complete.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Game Complete.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Game Over.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Game Over.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Level 1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Level 1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Level 2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Level 2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Stage Select.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Stage Select.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Title Screen.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Title Screen.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/VictoryMusic.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/VictoryMusic.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Warp Jingle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/Music/Warp Jingle.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Box Breaking.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Box Breaking.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Enemy Death.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Enemy Death.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Enemy Hurt.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Enemy Hurt.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Explosion.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Explosion.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Impact.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Impact.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Pickup Coin.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Pickup Coin.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Pickup Gun.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Pickup Gun.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Pickup Health.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Pickup Health.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Player Dash.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Player Dash.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Player Death.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Player Death.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Player Hurt.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Player Hurt.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot3.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot4.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot5.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shoot6.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shop Buy.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shop Buy.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shop Not Enough.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Shop Not Enough.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Warp Out.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/Warp Out.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/player die.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Audio/SFX/player die.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Font.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Font/Pixelnauts.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Font/Pixelnauts.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 1/Dungeon 1 Tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 1/Dungeon 1 Tiles.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 2/Dungeon 2 Tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 2/Dungeon 2 Tiles.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 3/Dungeon 3 Tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Udemy Roguelike/Tilesets/Dungeon 3/Dungeon 3 Tiles.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SoulKnightDemo/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SoulKnightDemo/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SoulKnightDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SoulKnightDemo/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="de59cd8e-132c-4779-a7f2-c7b6c6ac08ad" name="Default Changelist" comment="[ADD] git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,6 +9,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerBullet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -273,7 +80,7 @@
       <updated>1636552079403</updated>
       <workItem from="1636552126990" duration="9084000" />
       <workItem from="1636871944461" duration="7058000" />
-      <workItem from="1636935374612" duration="18017000" />
+      <workItem from="1636935374612" duration="18957000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] git ignore">
       <created>1637574880850</created>
