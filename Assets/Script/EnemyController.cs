@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (spriteRendererBody.isVisible)
+        if (spriteRendererBody.isVisible && PlayerController.singletonPlayerController.gameObject.activeInHierarchy)
         {
             if (Vector3.Distance(transform.position, PlayerController.singletonPlayerController.transform.position) < rangeToChasePlayer)
             {
@@ -56,6 +56,10 @@ public class EnemyController : MonoBehaviour
                     Instantiate(bullet, firePoint.position, firePoint.rotation);
                 }
             }
+        }
+        else
+        {
+            rigidbody2D.velocity = Vector2.zero;
         }
     }
 

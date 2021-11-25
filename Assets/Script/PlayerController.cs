@@ -27,6 +27,18 @@ public class PlayerController : MonoBehaviour
     public Transform enemiesContainer;
     public List<GameObject> enemiesList;
 
+    private float activeMoveSpeed;
+
+    [Header("Dash")] public float dashSpeed = 8f;
+
+    public float dashLength = .5f;
+    public float dashCooldown = 1f;
+    private float dashCounter;
+    private float dashCoolCounter;
+    private float dashInvincibility = .5f;
+
+    [Header("Hit Body")] public SpriteRenderer bodySpriteRenderer;
+
     private void Awake()
     {
         singletonPlayerController = this;
@@ -35,6 +47,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         camera = Camera.main;
+        activeMoveSpeed = moveSpeed;
     }
 
     // Update is called once per frame
@@ -48,14 +61,13 @@ public class PlayerController : MonoBehaviour
         //transform.position += new Vector3(moveInput.x*Time.deltaTime*moveSpeed, moveInput.y*Time.deltaTime*moveSpeed,0f);
 
         moveInput.Normalize(); //Normalize에 대해서 다시 찾아보기
-
-        rigidbody2D.velocity = moveInput * moveSpeed;
+        rigidbody2D.velocity = moveInput * activeMoveSpeed;
 
         // Vector3 mousePosition = Input.mousePosition;
         Vector3 mousePosition = GetEnemy();
         Vector3 screenPoint = camera.WorldToScreenPoint(transform.localPosition);
         // Vector3 screenPoint = GetEnemy();
-        
+
         // if (mousePosition.x < screenPoint.x)
         // {
         //     transform.localScale = new Vector3(-1f, 1f, 1f);
@@ -92,6 +104,36 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (dashCoolCounter <= 0 && dashCounter <= 0)
+            {
+                activeMoveSpeed = dashSpeed;
+                dashCounter = dashLength;
+                
+                animator.SetTrigger("dash"); // ani의 trigger에 대해서 다시 공부하기
+
+                //PlayerController.singletonPlayerController.MakeInvincible(dashInvincibility);
+            }
+        }
+
+        if (dashCounter > 0)
+        {
+            dashCounter -= Time.deltaTime;
+            if (dashCounter <= 0)
+            {
+                activeMoveSpeed = moveSpeed;
+                dashCoolCounter = dashCooldown;
+            }
+        }
+
+        if (dashCoolCounter > 0)
+        {
+            dashCoolCounter -= Time.deltaTime;
+        }
+        
+        
+
 
         if (moveInput != Vector2.zero)
         {
@@ -101,20 +143,19 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isMoving", false);
         }
-
-        
     }
 
     Vector2 GetEnemy()
     {
         //enemiesList = new List<GameObject>();
         enemiesList.Clear();
-        
+
         for (int i = 0; i < enemiesContainer.childCount; i++)
         {
             var _enemy = enemiesContainer.GetChild(i).gameObject;
             enemiesList.Add(_enemy);
         }
+
         enemiesList = enemiesList.OrderByDescending(r =>
             Vector2.Distance(gameObject.transform.position, r.transform.position)).ToList();
         // for (int i = 0; i < enemiesList.Count; i++)
@@ -124,8 +165,8 @@ public class PlayerController : MonoBehaviour
         //         Vector2.Distance(gameObject.transform.position, r.transform.position));
         // }
 
-        var getEnemy = enemiesList[enemiesList.Count-1];
-        
+        var getEnemy = enemiesList[enemiesList.Count - 1];
+
         // Debug.Log(getEnemy.name);
 
         return getEnemy.transform.position;
